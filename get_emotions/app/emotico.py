@@ -13,10 +13,10 @@ def create_directory(path):
 
 path_to_photos = '/home/user/Documents/to_server/photos'
 path_to_data = '/home/user/Documents/to_server/abobus'
-path_to_yolo_emo = '/home/user/Documents/to_server/yolo_emo_train'
+path_to_yolo_emo = '/home/user/Documents/to_server/yolo_emo_val'
 create_directory(path_to_yolo_emo)
 
-s, e, = 101, 301
+s, e, = 0, 100
 
 emotions_dict = {'Surprise': 0,
                  'Anger': 1,
